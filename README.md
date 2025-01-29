@@ -3,7 +3,7 @@
 
 Este proyecto implementa un servidor web básico en Java que maneja solicitudes RESTful (GET, POST, PUT, DELETE) y retorna los archivos solicitados que conforman la página web. El servidor está diseñado para manejar múltiples conexiones de clientes simultáneamente y realizar operaciones CRUD en objetos JSON en memoria. Cada solicitud es manejada por un hilo separado (ClientHandler), permitiendo la concurrencia. El tema que se escogio para la pagina web es de rem :D. 
 
-![image](https://github.com/user-attachments/assets/941a3195-8bb5-4012-b5eb-85a05d823c64)
+![{77378D07-17EE-46F6-9941-1207A993392A}](https://github.com/user-attachments/assets/0d10e85d-2502-4756-9b86-7f727cf55d42)
 
 ## Arquitectura
 Este proyecto sigue la arquitectura cliente-servidor. Utilizando el estilo arquitectonico de REST, Los clientes envían solicitudes HTTP al servidor, que maneja la lógica de los serviciso REST y devuelve respuestas en formato JSON. El servidor también puede retornar archivos estáticos, como HTML, CSS e imágenes. 
@@ -63,12 +63,12 @@ Para ejecutar las pruebas:
    ```bash
    mvn test
    ```
-
-   ![{D34E46ED-EB8B-43C7-BFE5-CCEDDAE881F5}](https://github.com/user-attachments/assets/80e78cb2-b33c-4099-bb34-436ac6038419)
+![{87FFD62C-2B50-419C-AE5E-D8CE2538F098}](https://github.com/user-attachments/assets/da9c1640-7dfa-44d5-b70d-bf02130bc98d)
 
 2. Prueba para metodo Get
 
-   ![{9243D6D1-6299-46D4-9286-1D22176ECA69}](https://github.com/user-attachments/assets/9099c787-169e-48c9-b1c5-e4d64e26fcf2)
+![{FD29DCC4-CDBD-4797-A6B9-F57E79499770}](https://github.com/user-attachments/assets/00d69ae9-c4e1-4088-9a6c-6093511a78e2)
+
 
 ## Built With
 * [Maven](https://maven.apache.org/) - Dependency Management

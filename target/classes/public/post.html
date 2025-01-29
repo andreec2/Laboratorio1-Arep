@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de POST</title>
+    <link rel="stylesheet" href="post.css">
+</head>
+<body>
+<header>
+    <h1>Prueba de solicitud POST</h1>
+    <img src="RemBatlle.png" alt="Imagen decorativa" class="header-image">
+</header>
+<main>
+    <form action="http://localhost:35000/cualquier/ruta" method="post">
+        <label for="mensaje">Escribe tu mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí...">Hola mundo</textarea>
+        <button type="submit">Enviar POST</button>
+    </form>
+</main>
+<footer>
+    <p>© 2025 - Mi servidor web sencillo</p>
+</footer>
+</body>
+</html>

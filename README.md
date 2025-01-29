@@ -8,6 +8,8 @@ Este proyecto implementa un servidor web básico en Java que maneja solicitudes 
 ## Arquitectura
 Este proyecto sigue la arquitectura cliente-servidor. Utilizando el estilo arquitectonico de REST, Los clientes envían solicitudes HTTP al servidor, que maneja la lógica de los serviciso REST y devuelve respuestas en formato JSON. El servidor también puede retornar archivos estáticos, como HTML, CSS e imágenes. 
 
+![{B47E569F-C1A3-4BF5-A76C-21482C66D2A2}](https://github.com/user-attachments/assets/bfae084e-bc1d-405c-b8b0-ccbab15e84da)
+
 ### componentes  
    - **Servidor** : HttpServer maneja las conexiones y enruta las solicitudes a los servicios correspondientes. ClientHandler Gestiona la comunicación con el cliente, procesa la solicitud y decide si debe retornar un archivo estático o delegar la solicitud a un servicio REST.
    - **Servicios REST**: ClientHandler en la clase clientHandler, manejan operaciones CRUD en objetos JSON y consulta a html estaticos guardados en el servidor.

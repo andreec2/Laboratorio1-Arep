@@ -1,7 +1,7 @@
 # TALLER DISEÑO Y ESTRUCTURACIÓN DE APLICACIONES DISTRIBUIDAS EN INTERNET
 
 
-Este proyecto implementa un servidor web básico en Java que maneja solicitudes RESTful (GET, POST, PUT, DELETE) y retorna los archivos solicitados que conforman la página web. El servidor está diseñado para manejar múltiples conexiones de clientes simultáneamente y realizar operaciones CRUD en objetos JSON en memoria. Cada solicitud es manejada por un hilo separado (ClientHandler), permitiendo la concurrencia. El tema que se escogio para la pagina web es de rem :D. 
+Este proyecto implementa un servidor web básico en Java que maneja solicitudes REST (GET, POST) y retorna los archivos solicitados que conforman la página web. El servidor está diseñado para manejar una conexion de cliente y realizar operaciones en objetos JSON, Html en memoria. Cada solicitud es manejada por  (ClientHandler), El tema que se escogio para la pagina web es de rem :D. 
 
 ![{77378D07-17EE-46F6-9941-1207A993392A}](https://github.com/user-attachments/assets/0d10e85d-2502-4756-9b86-7f727cf55d42)
 
